@@ -1,0 +1,16 @@
+<html>
+    <head>
+        <title>Rive Hello World</title>
+    </head>
+    <body>
+        <canvas id="canvas" width="500" height="500" ></canvas>
+        <script src="https://unpkg.com/rive-js"></script>
+        <script>
+            new rive.Rive({
+                src: 'respite.riv',
+                canvas: document.getElementById('canvas'),
+                autoplay: true
+            });
+        </script>
+    </body>
+</html>
